@@ -7,7 +7,7 @@ export async function getStores() {
     if (result.status === 200) return result.data;
     else throw result;
   } catch (error) {
-    return error;
+    throw error;
   }
 }
 
@@ -17,6 +17,6 @@ export async function getStoresId(id) {
     if (result.status === 200) return result.data;
     else throw result;
   } catch (error) {
-    return error;
+    throw error;
   }
 }

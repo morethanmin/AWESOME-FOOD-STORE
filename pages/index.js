@@ -127,7 +127,7 @@ export default function Layout({ children }) {
           position: "relative",
         }}
       >
-        <img
+        {/* <img
           style={{
             width: "100%",
             height: "90vh",
@@ -136,26 +136,32 @@ export default function Layout({ children }) {
             zIndex: 0,
           }}
           src="https://unsplash.com/photos/2lWGQ02DGL8/download?force=true&w=2400"
-        />
+        /> */}
         <div
           style={{
             position: "absolute",
             top: 0,
             margin: "0 auto",
             left: "50%",
-            top: "50%",
+            top: "20%",
             transform: "translateX(-50%)",
             display: "flex",
             flexDirection: "column",
-            color: "white",
+            color: "black",
           }}
         >
           <h1 style={{ marginBottom: "130px" }}>
             WELCOME TO AWESOME FOOD STORE!
           </h1>
-          <Button variant="contained" color="primary">
-            Get Started
-          </Button>
+          <Link href="/store" style={{ width: "100%" }}>
+            <Button
+              variant="contained"
+              style={{ width: "100%" }}
+              color="primary"
+            >
+              Get Started
+            </Button>
+          </Link>
         </div>
       </div>
       <Container
