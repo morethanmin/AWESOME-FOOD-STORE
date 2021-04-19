@@ -8,9 +8,8 @@
 Clone it and run:
 
 ```sh
-npm install
-json-server -p 9000 db.json
-npm run dev
+yarn
+yarn dev
 ```
 
 ### run
