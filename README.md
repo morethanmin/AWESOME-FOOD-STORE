@@ -12,6 +12,6 @@ yarn
 yarn dev
 ```
 
-### run
+### open
 open
 http://localhost:3000/
